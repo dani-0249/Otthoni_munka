@@ -1,0 +1,14 @@
+body {
+    font-family: neue haas grotesk text pro, helvetica, arial;
+    background-color: rgb(28, 0, 54);
+    color: rgb(255, 230, 0);
+}
+
+a {
+    color: greenyellow;
+}
+
+h1 {
+    font-size: 54px;
+    font-weight: 900;
+}
