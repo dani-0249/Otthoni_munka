@@ -1,8 +1,8 @@
 body {
     font-family: neue haas grotesk text pro, helvetica, arial;
     font-size: 16px;
-    background-color: rgba(26, 45, 85);
-    /* background-color: rgba(13, 20, 36); */
+    /* background-color: rgba(26, 45, 85); */
+    background-color: rgba(13, 20, 36);
     /* background-color: rgb(28, 0, 54); */
     color: rgba(254, 255, 255);
 }
@@ -16,33 +16,61 @@ h1 {
     font-weight: 900;
 }
 
+h2 {
+    box-shadow: 0 0 20px rgba(26, 45, 85);
+    background-color: rgba(26, 45, 85);
+    width: 1400px;
+    font-size: 27px;
+    margin-top: 60px;
+    font-weight: 900;
+    padding: 20px;
+    border-radius: 20px;
+}
+
 .kiemelt {
     width: 1400px;
     text-align: justify;
+    border-radius: 20px;
 }
 
 .box {
-    width: 500px;
+    box-shadow: 0 0 20px rgba(249, 218, 74);
+    height: 500px;
+    width: 750px;
     background-color: rgba(249, 218, 74);
     padding: 20px;
+    border-radius: 20px;
 }
 
 .cím {
+    box-shadow: 0 0 20px rgba(249, 218, 74);
     padding: 20px;
     text-align: center;
     background-color: rgba(249, 218, 74);
+    border-radius: 20px;
 }
 
+.kép {
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* tornák */
+
 .vbszerep {
+    box-shadow: 0 0 20px rgba(0, 72, 51);
     color: rgba(255, 237, 0);
     display: flex;
     gap: 20px;
     width: 1400px;
     background-color: rgba(0, 72, 51);
     padding: 20px;
+    border-radius: 20px;
 }
 
 .masters {
+    box-shadow: 0 0 20px rgba(85, 15, 17);
     display: flex;
     gap: 20px;
     width: 1400px;
@@ -50,9 +78,11 @@ h1 {
     color: white;
     padding: 20px;
     justify-content: space-between;
+    border-radius: 20px;
 }
 
 .premier {
+    box-shadow: 0 0 20px rgba(178, 151, 96);
     display: flex;
     gap: 20px;
     width: 1400px;
@@ -60,9 +90,11 @@ h1 {
     background-color: rgba(178, 151, 96);
     padding: 20px;
     justify-content: space-between;
+    border-radius: 20px;
 }
 
 .ukopen {
+    box-shadow: 0 0 20px rgba(241, 31, 42);
     display: flex;
     gap: 20px;
     color: rgba(253, 240, 1);
@@ -70,9 +102,11 @@ h1 {
     width: 1400px;
     padding: 20px;
     justify-content: space-between;
+    border-radius: 20px;
 }
 
 .worldcup {
+    box-shadow: 0 0 20px rgba(66, 182, 231);
     color: rgba(44, 49, 61);
     display: flex;
     gap: 20px;
@@ -80,4 +114,5 @@ h1 {
     width: 1400px;
     padding: 20px;
     justify-content: space-between;
+    border-radius: 20px;
 }
