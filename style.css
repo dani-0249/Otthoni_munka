@@ -1,8 +1,10 @@
 body {
     font-family: neue haas grotesk text pro, helvetica, arial;
     font-size: 16px;
-    background-color: rgb(28, 0, 54);
-    color: rgb(255, 230, 0);
+    background-color: rgba(26, 45, 85);
+    /* background-color: rgba(13, 20, 36); */
+    /* background-color: rgb(28, 0, 54); */
+    color: rgba(254, 255, 255);
 }
 
 a {
@@ -21,14 +23,14 @@ h1 {
 
 .box {
     width: 500px;
-    background-color: blueviolet;
+    background-color: rgba(249, 218, 74);
     padding: 20px;
 }
 
 .cím {
     padding: 20px;
     text-align: center;
-    background-color: blueviolet;
+    background-color: rgba(249, 218, 74);
 }
 
 .vbszerep {
@@ -40,6 +42,36 @@ h1 {
     padding: 20px;
 }
 
+.masters {
+    display: flex;
+    gap: 20px;
+    width: 1400px;
+    background-color: rgba(85, 15, 17);
+    color: white;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.premier {
+    display: flex;
+    gap: 20px;
+    width: 1400px;
+    color: rgba(242, 242, 242);
+    background-color: rgba(178, 151, 96);
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.ukopen {
+    display: flex;
+    gap: 20px;
+    color: rgba(253, 240, 1);
+    background-color: rgba(241, 31, 42);
+    width: 1400px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
 .worldcup {
     color: rgba(44, 49, 61);
     display: flex;
@@ -47,4 +79,5 @@ h1 {
     background-color: rgba(66, 182, 231);
     width: 1400px;
     padding: 20px;
+    justify-content: space-between;
 }
