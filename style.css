@@ -1,5 +1,6 @@
 body {
     font-family: neue haas grotesk text pro, helvetica, arial;
+    font-size: 16px;
     background-color: rgb(28, 0, 54);
     color: rgb(255, 230, 0);
 }
@@ -11,4 +12,39 @@ a {
 h1 {
     font-size: 54px;
     font-weight: 900;
+}
+
+.kiemelt {
+    width: 1400px;
+    text-align: justify;
+}
+
+.box {
+    width: 500px;
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+.cím {
+    padding: 20px;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.vbszerep {
+    color: rgba(255, 237, 0);
+    display: flex;
+    gap: 20px;
+    width: 1400px;
+    background-color: rgba(0, 72, 51);
+    padding: 20px;
+}
+
+.worldcup {
+    color: rgba(44, 49, 61);
+    display: flex;
+    gap: 20px;
+    background-color: rgba(66, 182, 231);
+    width: 1400px;
+    padding: 20px;
 }
