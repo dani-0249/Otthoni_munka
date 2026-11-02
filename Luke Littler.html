@@ -8,21 +8,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="teteje">
+
+    <div>
+        <ul class="menü">
+            <p style="font-weight: 900; font-size: 54px;">Nagytornák</p>
+            <li><a href="#vb">Világ-bajnokság</a></li>
+            <li><a href="#masters">Masters</a></li>
+            <li><a href="#pl">Premier League</a></li>
+            <li><a href="#uk">UK Open</a></li>
+            <li><a href="#worldcup">World Cup</a></li>
+            <li><a href="#matchplay">Matchplay</a></li>
+            <li><a href="#worldseries">World Series</a></li>
+            <li><a href="#grandprix">Grand Prix</a></li>
+            <li><a href="#eb">Európa-bajnokság</a></li>
+            <li><a href="#grandslam">Grandslam</a></li>
+            <li><a href="#playerschampionship">Players Championship</a></li>
+            <li><a href="#tb">Összesített tabella</a></li>
+        </ul>
+    </div>
+
+    <div class="clear"></div>
+
     <h1 class="cím">Luke Littler</h1>
     <p>Wikipédián <a href="https://hu.wikipedia.org/wiki/Luke_Littler" target="_blank">itt</a> található</p>
     <h2>Röviden az eddigi karrierje...</h2>
 
-    <div class="kiemelt">
-        <p>Luke Littler kétszeres világbajnok angol dartsjátékos. 2019 és 2020 között a <a
-                href="https://hu.wikipedia.org/wiki/British_Darts_Organisation" target="_blank">British Darts
-                Organisation</a>, majd 2023-tól a <a href="https://hu.wikipedia.org/wiki/Professional_Darts_Corporation"
-                target="_blank">Professional Darts Corporation</a> tagja. 2023-ban megnyerte a PDC ifjúsági
-            világbajnokságát, <b>2025-ben a sportág legfiatalabb világbajnoka lett 17 évesen.</b> Beceneve "The Nuke".</p>
-    </div>
-
     <div class="box">
-        <img class="kép" src="images/littler1.webp" alt="littler a TIME cikkjében">
+        <img class="kép" src="images/littler1.jpg" alt="littler a TIME cikkjében">
+        <p>Luke Littler kétszeres világbajnok angol dartsjátékos. 2019 és 2020 között a <a
+            href="https://hu.wikipedia.org/wiki/British_Darts_Organisation" target="_blank">British Darts Organisation</a>, majd 2023-tól a <a href="https://hu.wikipedia.org/wiki/Professional_Darts_Corporation"target="_blank">Professional Darts Corporation</a> tagja. 2023-ban megnyerte a PDC ifjúsági világbajnokságát, <b>2025-ben a sportág legfiatalabb világbajnoka lett 17 évesen.</b> Beceneve "The Nuke".</p>
     </div>
 
     <h2>Pályafutása</h2>
@@ -31,7 +46,7 @@
     
 <h1>Nagytornák amiket megnyert (sok van)</h1>
 
-    <h2>Dartsvilágbajnokság <i>(főszponzor: PaddyPower)</i></h2>
+    <h2 id="vb">Dartsvilágbajnokság <i>(főszponzor: PaddyPower)</i></h2>
     <div class="ppower">
         <img class="kép" src="images/littler2.jpg" alt="Littler a VB trófeával">
         <div class="szöveg">
@@ -56,11 +71,12 @@
             <p>Luke Littler a világ legfiatalabb dartsvilágbajnoka, mindössze 17 éves volt amikor megnyerte a 2025-ös vb-t.</p>
             <hr>
             <p>December közepe – Január eleje</p>
+            <p><b>London - Alexandra Palace (Anglia)</b></p>
         </div>
     </div>
 
     <h2>World Darts Masters <i>(főszponzor: Winmau)</i></h2>
-    <div class="winmau">
+    <div id="masters" class="winmau">
         <img class="kép" src="images/littler4.jpg" alt="Littler a Masters trófeával.">
         <div class="szöveg">
             <h3>Masters szereplései</h3>
@@ -75,11 +91,12 @@
             <p>2026-ban sikerült bepótolnia ezt a hiányzó trófeát is.</p>
             <hr>
             <p>Január vége</p>
+            <p><b>Milton Keynes - Marshall Arena (Anglia)</b></p>
          </div>
     </div>
 
     <h2>Premier League Darts <i>(főszponzor: BetMGM)</i></h2>
-    <div class="betmgm">
+    <div id="pl" class="betmgm">
         <img class="kép" src="images/littler5.jpg" alt="Luke Littler a Premier League trófeájával.">
         <div class="szöveg">
             <h3>Premier League szereplései</h3>
@@ -94,11 +111,13 @@
             <p>Luke Littler volt az a második játékos, aki <b>a Premier League döntőjében kilencnyilast dobott</b>, <a target="_blank" href="https://hu.wikipedia.org/wiki/Phil_Taylor_(dartsj%C3%A1t%C3%A9kos)">Phil Taylor</a> után.</p>
             <hr>
             <p>Február – Május (csütörtök esténként)</p>
+            <p><b>Anglia - Skócia - Wales - Írország - Észak-Írország - Hollandia - Németország - Belgium</b></p>
+            <p>A döntő Londonban, az O2 Arénában</p>
         </div>
     </div>
 
     <h2>UK Open <i>(főszponzor: Ladbrokes)</i></h2>
-    <div class="ladbrokes">
+    <div id="uk" class="ladbrokes">
         <img class="kép" src="images/littler6.jpg" alt="Littler a UK open trófeájával.">
         <div class="szöveg">
             <h3>UK Open szereplései</h3>
@@ -110,14 +129,15 @@
             </ul>
             <hr>
             <p>Az év negyedik nagy tornája.</p>
-            <p>Márciusi torna, amit Milton Keynes-ben rendeznek. Érdekesség, hogy egy sátor szerű helyen rendezik a versenyt, és <b>egyszerre nyolc színpadon is játszanak, hiszen 160 játékos csap össze.</b></p>
+            <p>Márciusi torna. Érdekesség, hogy egy sátor szerű helyen rendezik a versenyt, és <b>egyszerre nyolc színpadon is játszanak, hiszen 160 játékos csap össze.</b></p>
             <hr>
             <p>Március eleje</p>
+            <p><b>Minehead - Butlin's Minehead Resort (Anglia)</b></p>
         </div>
     </div>
 
     <h2>World Cup Of Darts <i>(főszponzor: BetVictor)</i></h2>
-    <div class="betvictor">
+    <div id="worldcup" class="betvictor">
         <img class="kép" src="images/littler és humphries a world cupon.jpg" alt="Littler és Humphries a győztes 2026-ban.">
         <div class="szöveg">
             <h3>World Cup Of Darts szereplései</h3>
@@ -132,12 +152,13 @@
             <p>Bár 2025-ben csúnya vereséget szenvedett a brit csapat, 2026-ban megmutatták hogy miért <b>Littler és Humphries a világranglista első kettő helyezettje.</b> Egyébként pedig <b>van Veen és van Gerwen, a világranglista harmadik és negyedik helyzettjei</b>t győzték le a döntőben.</p>
             <hr>
             <p>Június közepe</p>
+            <p><b>Frankfurt - Eissporthalle (Németország)</b></p>
         </div>
 
     </div>
 
     <h2>World Matchplay <i>(főszponzor: Betfred)</i></h2>
-    <div class="betfred">
+    <div id="matchplay" class="betfred">
         <img class="kép" src="images/littler7.jpg" alt="Littler a Matchplay trófeájával.">
         <div class="szöveg">
             <h3>World Matchplay szereplései</h3>
@@ -152,11 +173,12 @@
             <p>World Matchplay történetének legmagasabb döntős átlagát, 111,53-as átlagot dobott Littler, és az új tornaátlag rekordja is az övé, ami 111,04. A Nathan Aspinall elleni mérkőzésén <b>egy tökéletes 9 nyilas leg-et is elért.</b></p>
             <hr>
             <p>Július közepe</p>
+            <p><b>Blackpool - <a target="_blank" href="https://en.wikipedia.org/wiki/Winter_Gardens,_Blackpool">Winter Gardens</a> (Anglia)</b></p>
         </div>
     </div>
 
     <h2>World Series of Darts Finals <i>(főszponzor: Jack's Casino)</i></h2>
-    <div class="jcasino">
+    <div id="worldseries" class="jcasino">
         <img class="kép" src="images/littler8.jpg" alt="Luke Littler a 2024-es World Series Finals trófeájával.">
         <div class="szöveg">
             <h3>World Series szereplései</h3>
@@ -171,11 +193,12 @@
             <p>A szeptemeri, amszterdami tornán elszenvedett kudarc egyben azt is jelentette, hogy <b>véget ért Littler történelmi menetelése, amellyel megpróbálta az év összes összes kiemelt PDC-major tornáját megnyerni.</b></p>
             <hr>
             <p>Szeptember közepe</p>
+            <p><b>Amszterdam - AFAS Live (Hollandia)</b></p>
         </div>
     </div>
 
     <h2>World Grand Prix <i>(főszponzor: Boyle Sports)</i></h2>
-    <div class="bsports">
+    <div id="grandprix" class="bsports">
         <img class="kép" src="images/littler9.jpg" alt="Littler a 2025-ös Grand Prix trófeájával.">
         <div class="szöveg">
             <h3>World Grand Prix szereplései</h3>
@@ -190,11 +213,12 @@
             <p>A 2025-ös győzelemmel a bajnoki cím mellett a <b>£120 000-os fődíj</b>at is hazavihette.</p>
             <hr>
             <p>Október eleje</p>
+            <p><b>Leicester - Mattioli Aréna (Anglia)</b></p>
         </div>
     </div>
 
     <h2>Európa-bajnokság <i>(főszponzor: Machineseeker)</i></h2>
-    <div class="machine">
+    <div id="eb" class="machine">
         <img class="kép" src="images/littler10.jpg" alt="Littler búcsúzása a 2025-ös Európa-bajnokságról.">
         <div class="szöveg">
             <h3>Európa-bajnoksági szereplései</h3>
@@ -209,11 +233,12 @@
             <p>2026-os Európa-bajnokságot 2026. október 22–25. között rendezték meg. Littler sajnos idén sem nyerte meg a tornát, szóval még mindig ez a trófea hiányzik a gyűjteményéből.</p>
             <hr>
             <p>Október vége</p>
+            <p><b>Dortmund - Westfalenhalle (Németország)</b></p>
         </div>
     </div>
 
     <h2>Grand Slam of Darts <i>(főszponzor: Mr Vegas)</i></h2>
-    <div class="mrvegas">
+    <div id="grandslam" class="mrvegas">
         <img class="kép" src="images/littler11.jpg" alt="Littler a 2025-ös Grand Slam trófeájával.">
         <div class="szöveg">
             <h3>Grand Slam szereplései</h3>
@@ -228,11 +253,12 @@
             <p>A 2026-os Grand Slam of Darts tornát 2026. november 14. és 22. között rendezik meg a wolverhamptoni WV Active Aldersley sportközpontban. <b>Luke Littler kétszeres címvédőként érkezik a versenyre</b> (miután 2024-ben és 2025-ben is megnyerte azt), és <b>a tornán eddigi pályafutása során még veretlen.</b></p>
             <hr>
             <p>November közepe</p>
+            <p><b>Wolverhampton - WV Active Aldresley (Anglia)</b></p>
         </div>
     </div>
 
     <h2>Players Championship Finals <i>(főszponzor: Ladbrokes)</i></h2>
-    <div class="ladbrokes">
+    <div id="playerschampionship" class="ladbrokes">
         <img class="kép" src="images/littler12.jpg" alt="Littler a 2025-ös Players Championship Finals trófeájával.">
         <div class="szöveg">
             <h3>Players Championship Finals szereplései</h3>
@@ -244,14 +270,15 @@
             </ul>
             <hr>
             <p>Az év utolsó nagy tornája, a tizenegyedik.</p>
-            <p>Luke Littler nem kvalifikálta magát a 2026-os Players Championship Finals tornára. Bár ő volt a címvédő (a 2025-ös kiírást megnyerte Nathan Aspinall ellen), a 2026-os szezon döntő többségében kihagyta a Pro Tour állomásait. :(</p>
+            <p>Luke Littler nem kvalifikálta magát a 2026-os Players Championship Finals tornára. Bár ő volt a címvédő (a 2025-ös kiírást megnyerte Nathan Aspinall ellen), a 2026-os szezon döntő többségében kihagyta a Pro Tour állomásait.😭</p>
             <p>Ekkor rendezik az ifjúsági vb-t is, közvetlenül a Players Championship Finals színpadán, a döntő előtt játszák le.</p>
             <hr>
             <p>November vége</p>
+            <p><b>Minehead - Butlin's Minehead Resort (Anglia)</b>(ugyanaz mint a UK Open)</p>
         </div>
     </div>
 
-    <h2>Összesítve <i>(2024-től)</i></h2>
+    <h2  id="tb">Összesítve <i>(2024-től)</i></h2>
     <div class="table">
         <div>
             <table>
@@ -444,6 +471,8 @@
 
     </div>
 </div>
+
+<h2><a href="#teteje">Vissza a tetejére</a></h2>
     
 </body>
 

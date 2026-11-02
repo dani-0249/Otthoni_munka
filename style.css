@@ -1,10 +1,46 @@
 body {
     font-family: neue haas grotesk text pro, helvetica, arial;
-    font-size: 16px;
+    font-size: 14px;
     /* background-color: rgba(26, 45, 85); */
     background-color: rgba(13, 20, 36);
     /* background-color: rgb(28, 0, 54); */
     color: rgba(254, 255, 255);
+    max-width: 1540px;
+    margin: auto;
+    padding: 20px;
+    /* scale: 90%; */
+}
+
+.menü {
+    padding: 20px;
+    background-color: rgba(26, 45, 85);
+    /* border-radius: 20px; */
+    box-shadow: 0 0 20px rgba(26, 45, 85);
+    transition: 0.5s;
+}
+
+.menü a {
+    color: rgba(249, 218, 74);
+}
+
+.menü li {
+    float: left;
+    list-style-image: none;
+    list-style-type: none;
+    margin: 0;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+ul.menü {
+    margin: 0;
+    padding: 20px;
+    overflow: auto;
+}
+
+.clear {
+    clear: both;
 }
 
 table, td, th {
@@ -25,8 +61,9 @@ thead {
     box-shadow: 0 0 20px rgba(26, 45, 85);
     background-color: rgba(26, 45, 85);
     padding: 20px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     width: auto;
+    transition: 0.5s;
 }
 
 a {
@@ -47,7 +84,13 @@ h2 {
     margin-top: 60px;
     font-weight: 900;
     padding: 20px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+}
+
+h2:hover {
+    background-color: red;
+    box-shadow: 0 0 20px red;
+    transition: 0.5s;
 }
 
 ul {
@@ -62,13 +105,16 @@ ul {
 }
 
 .box {
-    box-shadow: 0 0 20px rgba(249, 218, 74);
-    color: rgba(13, 20, 36);
+    box-shadow: 0 0 20px rgb(50, 54, 142);
+    color: color;
     height: auto;
     margin: auto;
-    background-color: rgba(249, 218, 74);
+    background-color: rgb(50, 54, 142);
     padding: 20px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+    transition: 0.5s;
+    display: flex;
+    gap: 20px;
 }
 
 .cím {
@@ -76,19 +122,21 @@ ul {
     padding: 20px;
     text-align: center;
     background-color: rgba(249, 218, 74);
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 
 .szöveg {
-    flex: 0 0 750px;
+    flex: 0 0 650px;
+    transition: 0.5s;
 }
 
 .kép {
     flex: 0 0 auto;
-    height: 500px;          
-    max-width: 750px;
+    height: 450px;          
+    max-width: 650px;
     object-fit: cover;
-    border-radius: 15px;
+    /* border-radius: 15px; */
+    float: left;
 }
 
 /* tornák */
@@ -104,7 +152,13 @@ ul {
     width: auto;
     background-color: rgba(0, 72, 51);
     padding: 20px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+    transition: 0.5s;
+}
+
+.menü:hover, .table:hover, .box:hover, .ppower:hover, .winmau:hover, .betmgm:hover, .ladbrokes:hover, .betvictor:hover, .betfred:hover, .jcasino:hover, .bsports:hover, .machine:hover, .mrvegas:hover, .pdc:hover {
+    transform: scale(1.025);
+    box-shadow: 0 0 20px white;
 }
 
 .winmau {
@@ -118,7 +172,8 @@ ul {
     background-color: rgba(85, 15, 17);
     color: white;
     padding: 20px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+    transition: 0.5s;
 }
 
 .betmgm {
@@ -132,7 +187,8 @@ ul {
     color: rgba(242, 242, 242);
     background-color: rgba(178, 151, 96);
     padding: 20px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+    transition: 0.5s;
 }
 
 .ladbrokes {
@@ -146,7 +202,8 @@ ul {
     /* width: 1400px; */
     width: auto;
     padding: 20px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+    transition: 0.5s;
 }
 
 .betvictor {
@@ -160,7 +217,8 @@ ul {
     /* width: 1400px; */
     width: auto;
     padding: 20px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+    transition: 0.5s;
 }
 
 .betfred {
@@ -174,7 +232,8 @@ ul {
     /* width: 1400px; */
     width: auto;
     padding: 20px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+    transition: 0.5s;
 }
 
 .jcasino {
@@ -188,7 +247,8 @@ ul {
     /* width: 1400px; */
     width: auto;
     padding: 20px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+    transition: 0.5s;
 }
 
 .bsports {
@@ -202,7 +262,8 @@ ul {
     /* width: 1400px; */
     width: auto;
     padding: 20px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+    transition: 0.5s;
 }
 
 .machine {
@@ -216,7 +277,8 @@ ul {
     /* width: 1400px; */
     width: auto;
     padding: 20px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+    transition: 0.5s;
 }
 
 .mrvegas {
@@ -230,7 +292,8 @@ ul {
     /* width: 1400px; */
     width: auto;
     padding: 20px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+    transition: 0.5s;
 }
 
 .pdc {
@@ -243,9 +306,11 @@ ul {
     gap: 20px;
     padding: 20px;
     justify-content: space-between;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+    transition: 0.5s;
 }
 
 .pdc img {
     width: 300px;
+    transition: 0.5s;
 }
