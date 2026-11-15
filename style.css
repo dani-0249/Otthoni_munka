@@ -1,17 +1,22 @@
 body {
-    font-family: neue haas grotesk text pro, helvetica, arial;
+    /* font-family: helvetica now var display, neue haas grotesk text pro, helvetica, arial; */
+    /* font-family: Arial; */
+    font-family: Inter;
     font-size: 14px;
-    /* background-color: rgba(26, 45, 85); */
-    /* background-color: rgba(13, 20, 36); */
     background-image: url(images/pdc\ logo.png);
     background-attachment: fixed;
     background-position: center;
-    /* background-color: rgb(28, 0, 54); */
     color: rgba(254, 255, 255);
     max-width: auto;
     margin: auto;
     padding: 20px 100px;
-    /* scale: 90%; */
+    margin-top: 200px;
+    letter-spacing: -0.045em;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 250px;
 }
 
 .menü {
@@ -19,9 +24,15 @@ body {
     padding: 20px;
     background-color: rgba(26, 45, 85, 0.8);
     backdrop-filter: blur(10px);
-    /* border-radius: 20px; */
     box-shadow: 0 0 20px rgba(26, 45, 85);
     transition: 0.5s;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    width: calc(100% - 200px);
+    box-sizing: border-box;
 }
 
 .menü a {
@@ -39,7 +50,7 @@ body {
 }
 
 ul.menü {
-    margin: 0;
+    margin: auto;
     padding: 20px;
     overflow: auto;
 }
@@ -49,7 +60,7 @@ ul.menü {
 }
 
 table, td, th {
-    border: 1px solid white;
+    border: 2px solid rgba(13, 20, 36);
     border-collapse: collapse;
     padding: 10px;
     text-align: center;
@@ -66,14 +77,13 @@ thead {
     box-shadow: 0 0 20px rgba(26, 45, 85);
     background-color: rgba(26, 45, 85);
     padding: 20px;
-    /* border-radius: 20px; */
     width: auto;
     transition: 0.5s;
 }
 
 a {
-    /* color: greenyellow; */
     color: rgb(13, 161, 253);
+    transition: 0.5s;
 }
 
 h1 {
@@ -93,13 +103,11 @@ h2 {
     box-shadow: 0 0 20px rgba(26, 45, 85);
     background-color: rgba(26, 45, 85, 0.8);
     backdrop-filter: blur(10px);
-    /* width: 1400px; */
     width: auto;
     font-size: 27px;
     margin-top: 60px;
     font-weight: 900;
     padding: 20px;
-    /* border-radius: 20px; */
     transition: 0.5s;
 }
 
@@ -114,7 +122,6 @@ ul {
 }
 
 .kiemelt {
-    /* width: 1400px; */
     width: auto;
     text-align: justify;
     border-radius: 20px;
@@ -128,7 +135,6 @@ ul {
     background-color: rgb(50, 54, 142, 0.8);
     backdrop-filter: blur(10px);
     padding: 20px;
-    /* border-radius: 20px; */
     transition: 0.5s;
     display: flex;
     gap: 20px;
@@ -140,22 +146,21 @@ ul {
     text-align: center;
     background-color: rgba(249, 218, 74, 0.8);
     backdrop-filter: blur(10px);
-    /* border-radius: 20px; */
 }
 
 .szöveg {
-    float: left;
-    /* flex: 0 0 100wv; */
     transition: 0.5s;
 }
 
 .kép {
-    flex: 0 0 auto;
     height: 450px;          
     max-width: 600px;
     object-fit: cover;
-    /* border-radius: 15px; */
     float: left;
+}
+
+.nyert {
+    background-color: rgba(255, 217, 0, 0.2);
 }
 
 /* tornák */
@@ -164,19 +169,16 @@ ul {
     box-shadow: 0 0 20px rgba(0, 72, 51);
     color: rgba(255, 237, 0);
     display: flex;
-    /* flex-wrap: wrap; */
-    /* align-items: flex-start; */
     gap: 20px;
-    /* width: 1400px; */
     width: auto;
     background-color: rgba(0, 72, 51, 0.8);
     backdrop-filter: blur(10px);
     padding: 20px;
-    /* border-radius: 20px; */
     transition: 0.5s;
+    flex-direction: row;
 }
 
-.menü:hover, .table:hover, .box:hover, .ppower:hover, .winmau:hover, .betmgm:hover, .ladbrokes:hover, .betvictor:hover, .betfred:hover, .jcasino:hover, .bsports:hover, .machine:hover, .mrvegas:hover, .pdc:hover {
+a:hover, .table:hover, .box:hover, .ppower:hover, .winmau:hover, .betmgm:hover, .ladbrokes:hover, .betvictor:hover, .betfred:hover, .jcasino:hover, .bsports:hover, .machine:hover, .mrvegas:hover, .pdc:hover {
     transform: scale(1.025);
     box-shadow: 0 0 20px white;
     backdrop-filter: blur(20px);
@@ -185,48 +187,36 @@ ul {
 .winmau {
     box-shadow: 0 0 20px rgba(85, 15, 17);
     display: flex;
-    /* flex-wrap: wrap;
-    align-items: flex-start; */
     gap: 20px;
-    /* width: 1400px; */
     width: auto;
     background-color: rgba(85, 15, 17, 0.8);
     backdrop-filter: blur(10px);
     color: white;
     padding: 20px;
-    /* border-radius: 20px; */
     transition: 0.5s;
 }
 
 .betmgm {
     box-shadow: 0 0 20px rgba(178, 151, 96);
     display: flex;
-    /* flex-wrap: wrap;
-    align-items: flex-start; */
     gap: 20px;
-    /* width: 1400px; */
     width: auto;
     color: rgba(242, 242, 242);
     background-color: rgba(178, 151, 96, 0.8);
     backdrop-filter: blur(10px);
     padding: 20px;
-    /* border-radius: 20px; */
     transition: 0.5s;
 }
 
 .ladbrokes {
     box-shadow: 0 0 20px rgba(241, 31, 42);
     display: flex;
-    /* flex-wrap: wrap;
-    align-items: flex-start; */
     gap: 20px;
     color: rgba(253, 240, 1);
     background-color: rgba(241, 31, 42, 0.8);
     backdrop-filter: blur(10px);
-    /* width: 1400px; */
     width: auto;
     padding: 20px;
-    /* border-radius: 20px; */
     transition: 0.5s;
 }
 
@@ -234,31 +224,23 @@ ul {
     box-shadow: 0 0 20px rgba(66, 182, 231);
     color: rgba(44, 49, 61);
     display: flex;
-    /* flex-wrap: wrap;
-    align-items: flex-start; */
     gap: 20px;
     background-color: rgba(66, 182, 231, 0.8);
     backdrop-filter: blur(10px);
-    /* width: 1400px; */
     width: auto;
     padding: 20px;
-    /* border-radius: 20px; */
     transition: 0.5s;
 }
 
 .betfred {
     box-shadow: 0 0 20px rgba(0, 90, 153);
     display: flex;
-    /* flex-wrap: wrap;
-    align-items: flex-start; */
     gap: 20px;
     color: white;
     background-color: rgba(0, 90, 153, 0.8);
     backdrop-filter: blur(10px);
-    /* width: 1400px; */
     width: auto;
     padding: 20px;
-    /* border-radius: 20px; */
     transition: 0.5s;
 }
 
@@ -268,13 +250,9 @@ ul {
     background-color: rgba(220, 9, 18, 0.8);
     backdrop-filter: blur(10px);
     display: flex;
-    /* flex-wrap: wrap;
-    align-items: flex-start; */
     gap: 20px;
-    /* width: 1400px; */
     width: auto;
     padding: 20px;
-    /* border-radius: 20px; */
     transition: 0.5s;
 }
 
@@ -284,13 +262,9 @@ ul {
     background-color: rgba(35, 0, 238, 0.8);
     backdrop-filter: blur(10px);
     display: flex;
-    /* flex-wrap: wrap;
-    align-items: flex-start; */
     gap: 20px;
-    /* width: 1400px; */
     width: auto;
     padding: 20px;
-    /* border-radius: 20px; */
     transition: 0.5s;
 }
 
@@ -300,13 +274,9 @@ ul {
     background-color: rgba(33, 43, 89, 0.8);
     backdrop-filter: blur(10px);
     display: flex;
-    /* flex-wrap: wrap;
-    align-items: flex-start; */
     gap: 20px;
-    /* width: 1400px; */
     width: auto;
     padding: 20px;
-    /* border-radius: 20px; */
     transition: 0.5s;
 }
 
@@ -316,13 +286,9 @@ ul {
     background-color: rgba(30, 30, 30, 0.8);
     backdrop-filter: blur(10px);
     display: flex;
-    /* flex-wrap: wrap;
-    align-items: flex-start; */
     gap: 20px;
-    /* width: 1400px; */
     width: auto;
     padding: 20px;
-    /* border-radius: 20px; */
     transition: 0.5s;
 }
 
@@ -331,13 +297,10 @@ ul {
     background-color: rgba(26, 45, 85, 0.8);
     backdrop-filter: blur(10px);
     display: flex;
-    /* flex-wrap: wrap;
-    align-items: flex-start; */
     width: auto;
     gap: 20px;
     padding: 20px;
     justify-content: space-between;
-    /* border-radius: 20px; */
     transition: 0.5s;
 }
 
@@ -345,3 +308,4 @@ ul {
     max-height: 100px;
     transition: 0.5s;
 }
+
