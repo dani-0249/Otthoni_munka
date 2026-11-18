@@ -2,7 +2,7 @@ body {
     /* font-family: helvetica now var display, neue haas grotesk text pro, helvetica, arial; */
     /* font-family: Arial; */
     font-family: Inter;
-    font-size: 14px;
+    font-size: 11pt;
     background-image: url(images/pdc\ logo.png);
     background-attachment: fixed;
     background-position: center;
@@ -10,13 +10,13 @@ body {
     max-width: auto;
     margin: auto;
     padding: 20px 100px;
-    margin-top: 200px;
+    margin-top: 60px;
     letter-spacing: -0.045em;
 }
 
 html{
     scroll-behavior: smooth;
-    scroll-padding-top: 250px;
+    scroll-padding-top: 100px;
 }
 
 .menü {
@@ -24,7 +24,6 @@ html{
     padding: 20px;
     background-color: rgba(26, 45, 85, 0.8);
     backdrop-filter: blur(10px);
-    /* box-shadow: 0 0 20px rgba(26, 45, 85); */
     transition: 0.5s;
     position: fixed;
     z-index: 1000;
@@ -37,6 +36,7 @@ html{
 
 .menü a {
     color: rgb(13, 161, 253);
+    color: white;
 }
 
 .menü li {
@@ -86,9 +86,13 @@ a {
     transition: 0.5s;
 }
 
+hr {
+    border: 1px solid white;
+}
+
 h1 {
-    background-color: rgba(26, 45, 85, 0.1);
-    font-size: 54px;
+    /* background-color: rgba(26, 45, 85, 0.1); */
+    font-size: 50pt;
     font-weight: 900;
     backdrop-filter: blur(10px);
     padding: 20px;
@@ -96,25 +100,23 @@ h1 {
 }
 
 h1:hover {
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(200px);
 }
 
 h2 {
-    /* box-shadow: 0 0 20px rgba(26, 45, 85); */
     background-color: rgba(26, 45, 85, 0.8);
     backdrop-filter: blur(10px);
     width: auto;
-    font-size: 27px;
+    font-size: 25pt;
     margin-top: 60px;
     font-weight: 900;
     padding: 20px;
     transition: 0.5s;
 }
 
-h2:hover {
+h2:hover, .menü:hover {
     background-color: rgba(217, 31, 17, 0.8);
-    /* box-shadow: 0 0 20px rgba(217, 31, 17); */
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(200px);
 }
 
 ul {
@@ -128,7 +130,6 @@ ul {
 }
 
 .box {
-    /* box-shadow: 0 0 20px rgb(50, 54, 142); */
     color: color;
     height: auto;
     margin: auto;
@@ -141,7 +142,6 @@ ul {
 }
 
 .cím {
-    /* box-shadow: 0 0 20px rgba(249, 218, 74); */
     padding: 20px;
     text-align: center;
     background-color: rgba(249, 218, 74, 0.8);
@@ -165,135 +165,72 @@ ul {
 
 /* tornák */
 
-.ppower {
-    /* box-shadow: 0 0 20px rgba(0, 72, 51); */
-    color: rgba(255, 237, 0);
+.ppower, .winmau, .betmgm, .ladbrokes, .betvictor, .betfred, .jcasino, .bsports, .machine, .mrvegas {
     display: flex;
     gap: 20px;
     width: auto;
-    background-color: rgba(0, 72, 51, 0.8);
     backdrop-filter: blur(10px);
     padding: 20px;
     transition: 0.5s;
-    flex-direction: row;
+    background-color: rgba(10, 18, 35, 0.8);
 }
 
 a:hover, .table:hover, .box:hover, .ppower:hover, .winmau:hover, .betmgm:hover, .ladbrokes:hover, .betvictor:hover, .betfred:hover, .jcasino:hover, .bsports:hover, .machine:hover, .mrvegas:hover, .pdc:hover {
     transform: scale(1.025);
-    /* box-shadow: 0 0 20px white; */
     backdrop-filter: blur(200px);
 }
 
+.ppower {
+    color: rgba(255, 237, 0);
+    background-color: rgba(0, 72, 51, 0.8);
+}
+
 .winmau {
-    /* box-shadow: 0 0 20px rgba(85, 15, 17); */
-    display: flex;
-    gap: 20px;
-    width: auto;
     background-color: rgba(85, 15, 17, 0.8);
-    backdrop-filter: blur(10px);
     color: white;
-    padding: 20px;
-    transition: 0.5s;
 }
 
 .betmgm {
-    /* box-shadow: 0 0 20px rgba(178, 151, 96); */
-    display: flex;
-    gap: 20px;
-    width: auto;
     color: rgba(242, 242, 242);
     background-color: rgba(178, 151, 96, 0.8);
-    backdrop-filter: blur(10px);
-    padding: 20px;
-    transition: 0.5s;
 }
 
 .ladbrokes {
-    /* box-shadow: 0 0 20px rgba(241, 31, 42); */
-    display: flex;
-    gap: 20px;
     color: rgba(253, 240, 1);
     background-color: rgba(241, 31, 42, 0.8);
-    backdrop-filter: blur(10px);
-    width: auto;
-    padding: 20px;
-    transition: 0.5s;
 }
 
 .betvictor {
-    /* box-shadow: 0 0 20px rgba(66, 182, 231); */
     color: rgba(44, 49, 61);
-    display: flex;
-    gap: 20px;
     background-color: rgba(66, 182, 231, 0.8);
-    backdrop-filter: blur(10px);
-    width: auto;
-    padding: 20px;
-    transition: 0.5s;
 }
 
 .betfred {
-    /* box-shadow: 0 0 20px rgba(0, 90, 153); */
-    display: flex;
-    gap: 20px;
     color: white;
     background-color: rgba(0, 90, 153, 0.8);
-    backdrop-filter: blur(10px);
-    width: auto;
-    padding: 20px;
-    transition: 0.5s;
 }
 
 .jcasino {
-    /* box-shadow: 0 0 20px rgba(220, 9, 18); */
-    color: white;
     background-color: rgba(220, 9, 18, 0.8);
     backdrop-filter: blur(10px);
-    display: flex;
-    gap: 20px;
-    width: auto;
-    padding: 20px;
-    transition: 0.5s;
 }
 
 .bsports {
-    /* box-shadow: 0 0 20px rgba(35, 0, 238); */
     color: rgba(208, 233, 77);
     background-color: rgba(35, 0, 238, 0.8);
-    backdrop-filter: blur(10px);
-    display: flex;
-    gap: 20px;
-    width: auto;
-    padding: 20px;
-    transition: 0.5s;
 }
 
 .machine {
-    /* box-shadow: 0 0 20px rgba(33, 43, 89); */
     color: white;
     background-color: rgba(33, 43, 89, 0.8);
-    backdrop-filter: blur(10px);
-    display: flex;
-    gap: 20px;
-    width: auto;
-    padding: 20px;
-    transition: 0.5s;
 }
 
 .mrvegas {
-    /* box-shadow: 0 0 20px rgba(169, 229, 154); */
     color: rgba(169, 229, 154);
     background-color: rgba(30, 30, 30, 0.8);
-    backdrop-filter: blur(10px);
-    display: flex;
-    gap: 20px;
-    width: auto;
-    padding: 20px;
-    transition: 0.5s;
 }
 
 .pdc {
-    /* box-shadow: 0 0 20px rgba(26, 45, 85); */
     background-color: rgba(26, 45, 85, 0.8);
     backdrop-filter: blur(10px);
     display: flex;
@@ -307,5 +244,6 @@ a:hover, .table:hover, .box:hover, .ppower:hover, .winmau:hover, .betmgm:hover, 
 .pdc img {
     max-height: 100px;
     transition: 0.5s;
+    float: right;
 }
 

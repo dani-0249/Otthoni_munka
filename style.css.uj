@@ -1,0 +1,87 @@
+body {
+    font-family: inter, helvetica, arial;
+    font-size: 11pt;
+    background-color: rgb(28, 0, 54);
+    color: rgb(255, 230, 0);
+    max-width: auto;
+    margin: auto;
+    padding: 20px 100px;
+    margin-top: 100px;
+    letter-spacing: -0.045em;
+}
+
+a {
+    color: greenyellow;
+}
+
+h1 {
+    font-size: 50pt;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 25pt;
+    font-weight: 900;
+}
+
+.kiemelt {
+    width: 1400px;
+    text-align: justify;
+}
+
+.box {
+    background-color: blueviolet;
+    padding: 20px;
+    height: auto;
+    margin: auto;
+}
+
+.cím {
+    padding: 20px;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+img {
+    float: left;
+    height: 450px;
+    margin-right: 40px;
+}
+
+.menü {
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    transition: 0.5s;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    width: calc(100% - 200px);
+    box-sizing: border-box;
+}
+
+.menü a {
+    color: white;
+}
+
+.menü li {
+    float: left;
+    list-style-image: none;
+    list-style-type: none;
+    margin: 0;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+ul.menü {
+    margin: auto;
+    padding: 20px;
+    overflow: auto;
+}
+
+.pdc img {
+    max-height: 100px;
+    float: right;
+}
