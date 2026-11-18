@@ -24,7 +24,7 @@ html{
     padding: 20px;
     background-color: rgba(26, 45, 85, 0.8);
     backdrop-filter: blur(10px);
-    box-shadow: 0 0 20px rgba(26, 45, 85);
+    /* box-shadow: 0 0 20px rgba(26, 45, 85); */
     transition: 0.5s;
     position: fixed;
     z-index: 1000;
@@ -74,7 +74,7 @@ thead {
 }
 
 .table {
-    box-shadow: 0 0 20px rgba(26, 45, 85);
+    /* box-shadow: 0 0 20px rgba(26, 45, 85); */
     background-color: rgba(26, 45, 85);
     padding: 20px;
     width: auto;
@@ -100,7 +100,7 @@ h1:hover {
 }
 
 h2 {
-    box-shadow: 0 0 20px rgba(26, 45, 85);
+    /* box-shadow: 0 0 20px rgba(26, 45, 85); */
     background-color: rgba(26, 45, 85, 0.8);
     backdrop-filter: blur(10px);
     width: auto;
@@ -113,7 +113,7 @@ h2 {
 
 h2:hover {
     background-color: rgba(217, 31, 17, 0.8);
-    box-shadow: 0 0 20px rgba(217, 31, 17);
+    /* box-shadow: 0 0 20px rgba(217, 31, 17); */
     backdrop-filter: blur(20px);
 }
 
@@ -128,7 +128,7 @@ ul {
 }
 
 .box {
-    box-shadow: 0 0 20px rgb(50, 54, 142);
+    /* box-shadow: 0 0 20px rgb(50, 54, 142); */
     color: color;
     height: auto;
     margin: auto;
@@ -141,7 +141,7 @@ ul {
 }
 
 .cím {
-    box-shadow: 0 0 20px rgba(249, 218, 74);
+    /* box-shadow: 0 0 20px rgba(249, 218, 74); */
     padding: 20px;
     text-align: center;
     background-color: rgba(249, 218, 74, 0.8);
@@ -166,7 +166,7 @@ ul {
 /* tornák */
 
 .ppower {
-    box-shadow: 0 0 20px rgba(0, 72, 51);
+    /* box-shadow: 0 0 20px rgba(0, 72, 51); */
     color: rgba(255, 237, 0);
     display: flex;
     gap: 20px;
@@ -180,12 +180,12 @@ ul {
 
 a:hover, .table:hover, .box:hover, .ppower:hover, .winmau:hover, .betmgm:hover, .ladbrokes:hover, .betvictor:hover, .betfred:hover, .jcasino:hover, .bsports:hover, .machine:hover, .mrvegas:hover, .pdc:hover {
     transform: scale(1.025);
-    box-shadow: 0 0 20px white;
-    backdrop-filter: blur(20px);
+    /* box-shadow: 0 0 20px white; */
+    backdrop-filter: blur(200px);
 }
 
 .winmau {
-    box-shadow: 0 0 20px rgba(85, 15, 17);
+    /* box-shadow: 0 0 20px rgba(85, 15, 17); */
     display: flex;
     gap: 20px;
     width: auto;
@@ -197,7 +197,7 @@ a:hover, .table:hover, .box:hover, .ppower:hover, .winmau:hover, .betmgm:hover, 
 }
 
 .betmgm {
-    box-shadow: 0 0 20px rgba(178, 151, 96);
+    /* box-shadow: 0 0 20px rgba(178, 151, 96); */
     display: flex;
     gap: 20px;
     width: auto;
@@ -209,7 +209,7 @@ a:hover, .table:hover, .box:hover, .ppower:hover, .winmau:hover, .betmgm:hover, 
 }
 
 .ladbrokes {
-    box-shadow: 0 0 20px rgba(241, 31, 42);
+    /* box-shadow: 0 0 20px rgba(241, 31, 42); */
     display: flex;
     gap: 20px;
     color: rgba(253, 240, 1);
@@ -221,7 +221,7 @@ a:hover, .table:hover, .box:hover, .ppower:hover, .winmau:hover, .betmgm:hover, 
 }
 
 .betvictor {
-    box-shadow: 0 0 20px rgba(66, 182, 231);
+    /* box-shadow: 0 0 20px rgba(66, 182, 231); */
     color: rgba(44, 49, 61);
     display: flex;
     gap: 20px;
@@ -233,7 +233,7 @@ a:hover, .table:hover, .box:hover, .ppower:hover, .winmau:hover, .betmgm:hover, 
 }
 
 .betfred {
-    box-shadow: 0 0 20px rgba(0, 90, 153);
+    /* box-shadow: 0 0 20px rgba(0, 90, 153); */
     display: flex;
     gap: 20px;
     color: white;
@@ -245,7 +245,7 @@ a:hover, .table:hover, .box:hover, .ppower:hover, .winmau:hover, .betmgm:hover, 
 }
 
 .jcasino {
-    box-shadow: 0 0 20px rgba(220, 9, 18);
+    /* box-shadow: 0 0 20px rgba(220, 9, 18); */
     color: white;
     background-color: rgba(220, 9, 18, 0.8);
     backdrop-filter: blur(10px);
@@ -257,7 +257,7 @@ a:hover, .table:hover, .box:hover, .ppower:hover, .winmau:hover, .betmgm:hover, 
 }
 
 .bsports {
-    box-shadow: 0 0 20px rgba(35, 0, 238);
+    /* box-shadow: 0 0 20px rgba(35, 0, 238); */
     color: rgba(208, 233, 77);
     background-color: rgba(35, 0, 238, 0.8);
     backdrop-filter: blur(10px);
@@ -269,7 +269,7 @@ a:hover, .table:hover, .box:hover, .ppower:hover, .winmau:hover, .betmgm:hover, 
 }
 
 .machine {
-    box-shadow: 0 0 20px rgba(33, 43, 89);
+    /* box-shadow: 0 0 20px rgba(33, 43, 89); */
     color: white;
     background-color: rgba(33, 43, 89, 0.8);
     backdrop-filter: blur(10px);
@@ -281,7 +281,7 @@ a:hover, .table:hover, .box:hover, .ppower:hover, .winmau:hover, .betmgm:hover, 
 }
 
 .mrvegas {
-    box-shadow: 0 0 20px rgba(169, 229, 154);
+    /* box-shadow: 0 0 20px rgba(169, 229, 154); */
     color: rgba(169, 229, 154);
     background-color: rgba(30, 30, 30, 0.8);
     backdrop-filter: blur(10px);
@@ -293,7 +293,7 @@ a:hover, .table:hover, .box:hover, .ppower:hover, .winmau:hover, .betmgm:hover, 
 }
 
 .pdc {
-    box-shadow: 0 0 20px rgba(26, 45, 85);
+    /* box-shadow: 0 0 20px rgba(26, 45, 85); */
     background-color: rgba(26, 45, 85, 0.8);
     backdrop-filter: blur(10px);
     display: flex;
