@@ -22,7 +22,7 @@ html{
 .menü {
     color: rgba(249, 218, 74);
     padding: 20px;
-    background-color: rgba(26, 45, 85, 0.8);
+    background-color: rgba(26, 45, 85, 0.2);
     backdrop-filter: blur(10px);
     transition: 0.5s;
     position: fixed;
@@ -114,9 +114,18 @@ h2 {
     transition: 0.5s;
 }
 
-h2:hover, .menü:hover {
+h2:hover {
     background-color: rgba(217, 31, 17, 0.8);
     backdrop-filter: blur(200px);
+    corner-shape: squircle;
+    border-radius: 50px
+}
+
+.menü:hover{
+    background-color: rgba(217, 31, 17, 0.8);
+    backdrop-filter: blur(200px);
+    corner-shape: squircle;
+    border-radius: 0 0 50px 50px;
 }
 
 ul {
@@ -157,6 +166,12 @@ ul {
     max-width: 600px;
     object-fit: cover;
     float: left;
+    transition: 0.5s;
+}
+
+.kép:hover {
+    corner-shape: squricle;
+    border-radius: 12.5px;
 }
 
 .nyert {
@@ -178,6 +193,8 @@ ul {
 a:hover, .table:hover, .box:hover, .ppower:hover, .winmau:hover, .betmgm:hover, .ladbrokes:hover, .betvictor:hover, .betfred:hover, .jcasino:hover, .bsports:hover, .machine:hover, .mrvegas:hover, .pdc:hover {
     transform: scale(1.025);
     backdrop-filter: blur(200px);
+    corner-shape: squircle;
+    border-radius: 50px;
 }
 
 .ppower {
