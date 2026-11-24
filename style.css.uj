@@ -10,6 +10,12 @@ body {
     letter-spacing: -0.045em;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+
+}
+
 a {
     color: greenyellow;
 }
@@ -59,6 +65,11 @@ img {
     margin: auto;
     width: calc(100% - 200px);
     box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.menü:hover {
+    backdrop-filter: blur(200px);
 }
 
 .menü a {
